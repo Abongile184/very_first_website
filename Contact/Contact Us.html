@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en-ZA">
+<head>
+<title> Contact  </title>
+<meta charset = "UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="icon" href="C:\Users\Abongile Mavela\Desktop\Full stack developer\Projects\My website\favicon.ico">
+<style>
+
+html,body {
+  height:50%;
+  width:100%;
+  margin:0;
+  font-family:'Lobster', cursive;
+}
+
+
+body{
+  display:flex;} 
+
+
+.former{margin:auto; 
+       }
+
+.catering{color:#10b2b2;}
+
+#name,  #lname,#phone, #number{height:45px;}
+
+#datetime, #button, #Email{height:45px;}
+
+#lname, #Email{margin-left:30px;}
+
+a{text-decoration: none;}
+
+
+</style>
+</head>
+<body>
+
+<div class ="former">
+	<br><br>
+<h1>Contact</h1>
+
+<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.<br> Do not hesitate to contact us.</p>
+
+<p class = "catering">Catering Service: <br>
+53A Victoria Road,
+Sussex Street,
+Woodstock,
+4303,
+Cape Town,
+Western cape , SA
+</p>
+
+<p>You can also contact us by phone 021 460 6199 or email <a href = "GustavoCuisine@catering.com">GustavoCuisine@catering.com</a>, or you can send us a message here: </p>
+
+<form action = "/action_page.php" target="_blank" method="post">
+<input type = "text" id = "name" name = "name" placeholder="Name" size = "50" required name = "name">
+<input type = "text" id = "lname" name = "lname" placeholder="Last Name" size = "50" required name = "Last Name"><br><br>
+
+<input type = "tel" id = "phone" name = "name" placeholder="Cellphone number" size = "50" required name = "name">
+<input type = "text" id = "Email" name = "lname" placeholder="Email" size = "50" required name = "Email"><br><br>
+
+<input type = "number" id = "number" name = "number" min = "1" max = "500" required = " "><br><br>
+<input type = "datetime-local" id = "datetime" name = "date and time" required=" " ><br><br>
+<textarea id = "message" name = "message" cols="80" rows="10" placeholder="Message\Special requirements"></textarea><br><br>
+<input type = "Submit" id = "button" value = "Send Message" >
+
+</form>
+
+</div>
+
+</body>
+</html>
